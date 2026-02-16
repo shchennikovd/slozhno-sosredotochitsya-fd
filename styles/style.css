@@ -7,8 +7,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-color: #000028;
-  padding: 0 10px;
+  background-color: var(--heading-color);
   font-family: 'IBM Plex mono';
   font-size: 18px;
   font-weight: 400;
@@ -16,6 +15,7 @@
 
 .header {
   background-image: var(--cover-image);
+  padding: 0 10px;
   display: grid;
   height: 100vh;
   min-block-size: 668px;
@@ -29,7 +29,7 @@
   color: var(--decor-color);
   position: absolute;
   top: 10px;
-  right: 28px;
+  right: 38px;
   z-index: 9999;
 }
 
@@ -57,7 +57,7 @@
   width: 25px;
   height: 25px;
   bottom: 10px;
-  left: 0;
+  left: 10px;
 }
 
 .decorated-zone::after {
@@ -69,7 +69,7 @@
   width: 25px;
   height: 25px;
   top: 10px;
-  right: 0;
+  right: 10px;
 }
 
 .header__title {
@@ -91,6 +91,7 @@
 .main {
   display: grid;
   grid-template-columns: 1fr;
+  padding: 0 10px;
   gap: 50px;
 }
 
@@ -173,6 +174,7 @@
   display: grid;
   height: 100vh;
   min-block-size: 668px;
+  padding: 0 10px;
 }
 
 .footer__title {
@@ -184,15 +186,11 @@
 }
 
 @media (width >= 768px) {
-  .page {
-    padding: 0 20px;
-  }
-
   .header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     min-block-size: 1024px;
-    margin-left: -20px;
+    padding: 0 20px;
     margin-bottom: 60px;
   }
 
@@ -204,20 +202,24 @@
 
   .header__decoration-item {
     top: 20px;
+    right: 48px;
   }
   
   .decorated-zone::before {
     bottom: 20px;
-    left: 10px;
+    left: 20px;
   }
   
   .decorated-zone::after {
     top: 20px;
+    right: 20px;
   }
 
   .header__title {
     grid-column: 1 / span 2;
     grid-row: 2;
+    padding-bottom: 0;
+    margin-left: -20px;
     align-self: center;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -226,11 +228,11 @@
     grid-column: 2;
     grid-row: 3;
     margin-top: 42px;
-    margin-left: 10px;
   }
 
   .main {
     gap: 80px;
+    padding: 0 20px;
   }
 
   .section-concentrate {
@@ -313,6 +315,7 @@
 
   .footer {
     min-block-size: 1024px;
+    padding: 0 20px;
   }
 }
 
