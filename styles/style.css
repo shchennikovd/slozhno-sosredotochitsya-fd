@@ -97,6 +97,19 @@
   padding: 0 13px;
 }
 
+.header__theme-menu-button:hover {
+  outline: 1px solid color-mix(in srgb, var(--button-color) 40%, transparent);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--button-color);
+}
+
 .header__theme-menu-button_active {
   outline: 1px solid var(--button-color);
   pointer-events: none;
