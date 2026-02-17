@@ -12,7 +12,20 @@
   --cover-image: url("../images/cover-image-dark.png");
   --decor-color: #FF0070;
   --text-color: #F1B2CE;
-  --heading-color: #000028;
-  --header-main-title: #DB00FF;
+  --bg-color: #000028;
+  --header-main-title-color: #DB00FF;
   --accent-color: #FF0070;
+
+
+  --rectangle-color: #FF0070;
+  --button-color: #FF0070;
+  /* --main-header-color: #DB00FF; */
+  --shadow-color: #FF0070;
+  --text-background-color: #FF0070;
+  --title-color: #FF0070;
+  --subtitle-color: #000028;
+  /* --text-color: #F1B2CE; */
+  --link-hover: #F1B2CE;
+  --link-focus: #F1B2CE;
+  --decoration-visible: block;
 }
