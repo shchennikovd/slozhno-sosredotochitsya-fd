@@ -294,7 +294,7 @@
     min-inline-size: 236px;
   }
 
-  .section-concentrate-better__container {
+  .container-better {
     display: grid;
     gap: 20px;
     grid-column: 2 / span 3;
