@@ -9,23 +9,17 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --cover-image: url("../images/cover-image-dark.png");
-  --decor-color: #FF0070;
-  --text-color: #F1B2CE;
+  --cover-image: url(../images/cover-image-dark.png);
+  --decor-color: #ff0070;
+  --text-color: #f1b2ce;
   --bg-color: #000028;
-  --header-main-title-color: #DB00FF;
-  --accent-color: #FF0070;
-
-
-  --rectangle-color: #FF0070;
-  --button-color: #FF0070;
-  /* --main-header-color: #DB00FF; */
-  --shadow-color: #FF0070;
-  --text-background-color: #FF0070;
-  --title-color: #FF0070;
+  --header-main-title-color: #db00ff;
+  --rectangle-color: #ff0070;
+  --button-color: #ff0070;
+  --shadow-color: #ff0070;
+  --title-color: #ff0070;
   --subtitle-color: #000028;
-  /* --text-color: #F1B2CE; */
-  --link-hover: #F1B2CE;
-  --link-focus: #F1B2CE;
+  --link-hover: #f1b2ce;
+  --link-focus: #f1b2ce;
   --decoration-visible: block;
 }
